@@ -2,7 +2,7 @@
 [![CI Status](https://github.com/mdanialr/apilog/workflows/CI/badge.svg)](https://github.com/mdanialr/apilog/actions/workflows/on_push_pr.yml)
 
 # APILog
-Write log and 
+Write leveled log to multiple writer/output at once. Leverage the usage of context to improve decoupling between each part of system.
 
 ## Getting Started
 ```go
