@@ -9,7 +9,7 @@ import (
 
 func TestNewNewrelicWriter(t *testing.T) {
 	t.Run("Error", func(t *testing.T) {
-		msg := "failed to init newrelic app: license length is not 40"
+		msg := "failed to init newrelic writer: license length is not 40"
 		require.PanicsWithError(t, msg, func() {
 			NewNewrelicWriter(DebugLevel, nil)
 		})
