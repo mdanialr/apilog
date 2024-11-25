@@ -4,7 +4,7 @@ go 1.23
 
 require (
 	github.com/newrelic/go-agent/v3 v3.35.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
